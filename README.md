@@ -1,16 +1,16 @@
-## Hi there 👋
+### Системный аналитик · интеграции · архитектура решений
 
-<!--
-**maxkornienko/maxkornienko** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+4 года в анализе. Сейчас — senior системный аналитик в финтехе: интеграции с внешними и внутренними системами — от требований регулятора до промышленной эксплуатации.
 
-Here are some ideas to get you started:
+Здесь — учебные проекты по архитектуре решений: от бизнес-целей и драйверов до C4-диаграмм, ADR и расчёта TCO.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Проект | Задача | Что внутри |
+|---|---|---|
+| [AdScale](https://github.com/maxkornienko/Solution-AdScale) | Эволюция RTB-платформы: новый DSP-партнёр на 18 000 RPS с ответом до 80 мс и рост до 50 000 RPS | AS-IS/TO-BE, драйверы, ADR, API Gateway, sequence-диаграммы, Kafka, кеширование, масштабирование |
+| [VitaStore](https://github.com/maxkornienko/cost-reduction) | Снизить TCO магазина на 40% переходом в облако, подключать новую точку за 5 дней вместо двух недель | карта бизнес-возможностей, Buy vs Build, BPMN 2.0, облачная HLD, TCO и ROI на три года |
+| [DiamondUniverse](https://github.com/maxkornienko/Solution-DiamondUniverse) | Перевести аукцион алмазов в онлайн: оценка и торги без визита в офис | архитектурное видение, Fit-Gap-анализ, промежуточная и целевая концептуальная архитектура |
+| [FitLife](https://github.com/maxkornienko/Solution-FitLife) | Система управления фитнес-клубом | C4 на всех четырёх уровнях: context, container, component, code |
+
+**Как сделано:** диаграммы как код (AdScale, VitaStore, FitLife) — PlantUML и C4-PlantUML, библиотека лежит в репозитории, PNG собирает GitHub Actions.
+
+**AI в работе аналитика:** локальный RAG по регуляторной документации, skill-артефакты для AI-агентов в IDE, генерация BPMN 2.0 XML агентами с проверкой в Camunda Modeler
